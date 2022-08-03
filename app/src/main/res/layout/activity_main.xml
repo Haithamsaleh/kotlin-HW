@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <!-- 1st Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#B1ADAD"
+        >
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundcorner"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Lorem ipsum dolor sit amet"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+
+    <!-- 2nd Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#5E5C5C"
+
+        >
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/roundcorner"
+             />
+
+
+
+    </LinearLayout>
+    <!-- 3rd Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="519dp"
+        android:background="#3C3C3C"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        >
+
+        <ImageButton
+            android:background="@drawable/roundcorner"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+
+
+            />
+
+        <ImageButton
+            android:background="@drawable/roundcorner"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus lacinia turpis, ut pharetra magna feugiat vel. Integer ut lectus"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="Lorem ipsum dolor sit amet"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"            android:layout_marginTop="10dp"
+
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus lacinia turpis,"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum "
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum "
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
